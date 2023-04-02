@@ -1,6 +1,6 @@
 {
-  "homepage": "https://gamindagun.github.io/goodheart-app/",
   "name": "goodheart-sc-react",
+  "homepage": "https://gamindagun.github.io/goodheart-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
