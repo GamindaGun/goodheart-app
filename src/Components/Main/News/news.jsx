@@ -19,7 +19,7 @@ const news = () => {
       
       <div class="newsimg1">
         <h3>The NRL halves under the most preasure</h3>
-        <img src="./westimg.png" alt="5 Terre"/>
+        <img src="http://localhost:3000/goodheart-app/westimg.png" alt="5 Terre"/>
         <p>No team is under more pressure than the Wests Tigers who have a major decision to make on their halves.</p>
     
       </div>
@@ -27,7 +27,7 @@ const news = () => {
       <div class="newsimg1">
         
         <h3>NRL Round4 Tips: Matto's redemption and a Bronco blitz</h3>
-        <img src="./NRLnews2.png" alt="Norther Lights"/>
+        <img src="http://localhost:3000/goodheart-app/NRLnews2.png" alt="Norther Lights"/>
         <p>From redemption matches to pressure already on already stretched squad depths and must-win games, here are the burning issues heading into this NRL round - plus all our expert tips.</p>
       
       </div>

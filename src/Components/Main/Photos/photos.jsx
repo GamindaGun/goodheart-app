@@ -7,18 +7,18 @@ const photos = () => {
       <h2>NRL special moments</h2>
             
       <div class="bestimg">
-        <img src="bestimg1.png" alt="bestmoments2023"/>
+        <img src="http://localhost:3000/goodheart-app/bestimg1.png" alt="bestmoments2023"/>
         <p>NRL Set to launch second brisbane team for season 2023. ...image from thewst.com</p>
       </div>
 
 <div class="bestimg">
-        <img src="bestimg2.png" alt="bestmoments2023"/>
+        <img src="http://localhost:3000/goodheart-app/bestimg2.png" alt="bestmoments2023"/>
         <p>2023 NRL Draw released_ Rugby league world cup... rugbyleaguewclive.com</p>
       </div>
 
 
 <div class="bestimg">
-        <img src="bestimg3.png" alt="bestmoments2023"/>
+        <img src="http://localhost:3000/goodheart-app/bestimg3.png" alt="bestmoments2023"/>
         <p>NRL salary cap reduction official for 2021-2022 seasons... cdn.newsapi.com.au</p>
       </div>
 

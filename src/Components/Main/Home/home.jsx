@@ -1,14 +1,15 @@
 import React from "react";
 import ImageSlider from './homeslider'
 
+
 const Homesld = () => {
   const slides = [
     
-    { url: "http://localhost:3000/imgb1.png", title: "NRLPhoto"},
-    { url: "http://localhost:3000/imgb2.png", title: "NRLPhoto"},
-    { url: "http://localhost:3000/imgb3.png", title: "NRLPhoto"},
-    { url: "http://localhost:3000/imgb4.png", title: "NRLPhoto"},
-    { url: "http://localhost:3000/imgb5.png", title: "NRLPhoto"},
+    { url: "http://localhost:3000/goodheart-app/imgb1.png", title: "NRLPhoto"},
+    { url: "http://localhost:3000/goodheart-app/imgb2.png", title: "NRLPhoto"},
+    { url: "http://localhost:3000/goodheart-app/imgb3.png", title: "NRLPhoto"},
+    { url: "http://localhost:3000/goodheart-app/imgb4.png", title: "NRLPhoto"},
+    { url: "http://localhost:3000/goodheart-app/imgb5.png", title: "NRLPhoto"},
     
   ];
 
