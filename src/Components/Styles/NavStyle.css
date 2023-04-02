@@ -1,0 +1,304 @@
+/* font style Roboto and Titillium imported from Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=Titillium+Web:wght@300;400;700&display=swap');
+
+/* Styles for navigation Section of the page */
+.bg {
+    background-image: url("../Images/backimg1.png");
+    background-repeat:no-repeat;
+
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-size:cover;
+
+} 
+
+
+header {
+    display:inline-flex;
+    position: fixed;
+    z-index: 1000; 
+    width: 100%; 
+}
+
+.backimg {
+width: 100%;
+height: 100%;
+margin: 0%;
+margin-top: 0;
+}
+
+header  nav  {
+    width: 100%;
+    display: flex;  
+    overflow: hidden;
+    margin-left: 100px;
+    z-index: 9999;
+    box-sizing: border-box;
+    margin: 0%;
+    align-items: center;
+    justify-content:center; 
+    flex-direction:row;
+    height: 80px;
+    background-color:black; 
+    color: white;
+    font-size: medium;
+    font-weight:700;
+    font-family: 'Titillium Web',sans-serif;
+
+}
+
+nav a {
+    margin: 0 2rem; 
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color:blue;
+    
+}
+
+/* Styles for Header Section of the page */
+
+header  .navName {
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100px; 
+    padding-left: 0;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+header  .navImg {
+        
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100px; 
+        background-color: black;
+        overflow:hidden;
+}
+
+
+/*Styles for About Section of the page  */
+.about {
+    color:black;
+    height: 500px;
+    width: 100%; 
+    background-color:white;
+    border-radius: 10px;
+    font-size:larger;
+
+}
+
+.about button{
+    color:dodgerblue;
+    background: transparent;
+    border: none;
+    
+}
+.about button:hover{
+    cursor: pointer;
+    text-emphasis-color: red;
+}   
+
+/* Styles for News Section of the page */
+.news {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 2rem; 
+    color:black;
+    height:auto;
+    width: 100%; 
+    background-color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-top: 50px;
+    
+}
+
+
+.news div.newsimg1 {
+    width: 560px;
+    height:auto;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+ }  
+
+ .news  .newsimg1 img {
+    margin-left: 4rem;
+    border-radius: 10px;
+ }
+
+.news .newsimg1 h3 {
+text-align: center;
+
+}
+.news .newsimg1 p {
+text-align:center;
+}
+
+/* Styles for Ladder Section of the page */
+.ladder {
+    color:black;
+    height: 800px;
+    width: 100%;  
+    background-color: white;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+.ladder iframe{
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.sessions {
+    color: black;
+    height: 400px;
+    width: 100%; 
+    background-color: white;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+table {
+
+    width: 1000px;
+    height: 300px;
+    margin-left: 350px; 
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid;
+    border-color:black;
+    border-radius: 10px;
+}
+table,
+th {
+    text-align: center;
+}
+
+.photo {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-block: 2rem;
+    color:black;
+    height: auto;
+    width:100%;  
+    background-color: white;
+    cursor: pointer;
+    margin-top: 50px;
+        
+}
+
+.photo  .bestimg {
+    width:auto;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(20, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 60px;
+    }
+
+
+form {
+    color:#f9f9f9;
+    width: 100%;  
+    height: 800px;
+    
+    margin-top: 50px;
+    
+}   
+
+
+.footer  {
+    color:black;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.footer div {
+cursor: pointer;
+
+}
+
+.memberform  .frmData {
+
+    background: linear-gradient(45deg, dodgerblue,white,purple);
+    width: 12cm;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(20, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-bottom: 25px; */
+    text-align:left;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 600px;
+    margin-top: 60px; 
+
+}
+label {
+    width:140px;
+    display:inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input{
+    padding: 4px;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #f9f9f9;
+    width: 7cm;
+
+}
+
+textarea {
+    padding: 4px;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #f9f9f9;
+    width: 12cm;
+    height: auto;
+}
+
+.formbtn {
+    margin-top: 7px;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding: 4px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 200px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+button :hover {
+    background-color: green;
+    color: #f9f9f9;
+}
+
